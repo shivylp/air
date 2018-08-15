@@ -1,7 +1,6 @@
 import json
 import sys
 
-
 def load_from_file(file):
     with open(file) as f:
         lines = f.readlines()
