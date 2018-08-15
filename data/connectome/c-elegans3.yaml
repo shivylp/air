@@ -1,0 +1,4305 @@
+# C.Elegans Connectome Model
+# ------------------------------
+# Extracted from https://github.com/Interintel/ConnectomeEngine/
+
+attributes:
+  threshold: 15
+  name: C.Elegans
+  resting_state: 0
+
+cells:
+  VB4:
+    synapses:
+      AVBR: 1
+      MVR11: 5
+      MVR14: 5
+      DD3: 16
+      DD2: 6
+      MVL11: 5
+      MVL14: 5
+      VB5: 1
+      DB1: 1
+      DB4: 1
+      AVBL: 1
+  ADLL:
+    synapses:
+      ASHL: 2
+      AIBR: 1
+      AVDR: 1
+      ASER: 3
+      RMGL: 1
+      AVAR: 3
+      AWBL: 2
+      ALA: 2
+      AVAL: 2
+      AIAL: 6
+      AVJR: 3
+      AVJL: 1
+      OLQVL: 1
+      AVDL: 1
+      RIPL: 1
+      AIBL: 7
+      ADLR: 1
+      AVBL: 2
+  VD7:
+    synapses:
+      MVULVA: -15
+      MVR16: -7
+      MVR15: -7
+      VD6: 1
+      VA9: 1
+      MVL15: -7
+      MVL16: -7
+  HSNL:
+    synapses:
+      ASHL: 1
+      SABVL: 2
+      AVFL: 6
+      AIZL: 2
+      AVDR: 2
+      AWBR: 2
+      RIML: 2
+      AWBL: 1
+      MVULVA: 7
+      AIAL: 1
+      AVJL: 1
+      ASJR: 1
+      ASKL: 1
+      AIZR: 1
+      HSNR: 1
+      RIFL: 3
+      ASHR: 2
+      VC5: 3
+  SIBDR:
+    synapses:
+      AIML: 1
+      RIBR: 1
+      SIBVR: 1
+  CEPVR:
+    synapses:
+      URAVR: 1
+      RMDDR: 2
+      AVEL: 5
+      MVR04: 1
+      IL1VR: 1
+      RICR: 2
+      IL2VR: 2
+      RIPR: 1
+      RICL: 2
+      ASGR: 1
+      RIH: 1
+      OLQVR: 1
+      SIAVR: 2
+      OLLR: 7
+      RIVL: 1
+      RMHR: 2
+  PHCR:
+    synapses:
+      LUAR: 1
+      PVCR: 1
+      PHCL: 1
+      DVA: 8
+      AVHR: 1
+      DA9: 2
+      VA12: 1
+  VD8:
+    synapses:
+      VA8: 1
+      MVL15: -18
+      MVR15: -18
+      DD4: 1
+  VA8:
+    synapses:
+      AVBR: 1
+      AS6: 1
+      MVR15: 6
+      VD8: 1
+      AVAR: 4
+      VA8: 1
+      DD4: 21
+      VD7: 5
+      AVAL: 10
+      VA9: 1
+      MVL15: 6
+      VB6: 1
+      MVL16: 6
+      PVCR: 2
+      VB9: 3
+      VB8: 3
+      PDER: 1
+      MVR16: 6
+  AIYR:
+    synapses:
+      AWAR: 1
+      RIAR: 6
+      HSNL: 1
+      RIMR: 1
+      RIBR: 2
+      ADFR: 1
+      AIZR: 8
+      AIYL: 1
+  M2R:
+    synapses:
+      I3: 1
+      MI: 2
+      M3R: 1
+      I1R: 3
+      M5: 1
+      I1L: 3
+      M3L: 1
+  CEPVL:
+    synapses:
+      ADLL: 1
+      OLLL: 4
+      SIAVL: 1
+      OLQVL: 1
+      RICR: 4
+      RIPL: 1
+      MVL03: 1
+      RICL: 7
+      RMHL: 1
+      RMDDL: 4
+      RIH: 1
+      IL1VL: 2
+      AVER: 3
+      URAVL: 2
+  DB1:
+    synapses:
+      AS3: 1
+      AS2: 1
+      AIBR: 1
+      VD2: 15
+      VD1: 21
+      AVBR: 3
+      DD1: 10
+      DVA: 1
+      AS1: 1
+      MDL07: 1
+      VB3: 1
+      MDR07: 1
+      MDL08: 1
+      RIS: 1
+      VB4: 1
+      VD3: 1
+      RID: 1
+      DB2: 1
+      DB4: 1
+      MDR08: 1
+  OLLR:
+    synapses:
+      SMDVL: 4
+      OLLL: 2
+      AVEL: 16
+      CEPVR: 6
+      RMER: 2
+      RIBR: 10
+      RMDVR: 3
+      SMDVR: 3
+      RMDDR: 10
+      IL2R: 1
+      SMDDR: 1
+      IL1VR: 1
+      RIGR: 1
+      CEPDR: 1
+      RMDL: 3
+      IL1DR: 1
+  DB3:
+    synapses:
+      AVBR: 1
+      VD5: 26
+      VD4: 9
+      AS5: 1
+      AS4: 1
+      DD3: 10
+      DD2: 4
+      MDL14: 3
+      MDL13: 4
+      MDL12: 3
+      MDL11: 3
+      VD6: 7
+      DA4: 1
+      MDR14: 3
+      MDR11: 3
+      MDR13: 4
+      MDR12: 3
+      DB2: 6
+      DB4: 1
+      AVBL: 1
+  DB2:
+    synapses:
+      AVBR: 1
+      VD3: 23
+      VD5: 1
+      VD4: 14
+      MDL09: 3
+      DD2: 2
+      MDR12: 3
+      MDL12: 3
+      MDL11: 3
+      MDL10: 3
+      VB1: 2
+      MDR11: 3
+      MDR10: 3
+      DA3: 5
+      DB1: 1
+      DB3: 6
+      MDR09: 3
+  DB5:
+    synapses:
+      AVBR: 1
+      MDL18: 2
+      MDL17: 2
+      MDL15: 2
+      AVAR: 2
+      MDR15: 2
+      MDR17: 2
+      MDR18: 2
+      AVBL: 1
+  AIYL:
+    synapses:
+      AIYR: 1
+      AIZL: 13
+      AWCR: 1
+      RIBL: 4
+      AWCL: 1
+      RIML: 1
+      HSNR: 1
+      RIAL: 7
+      AWAL: 3
+  DB7:
+    synapses:
+      MDL22: 2
+      AVBR: 1
+      MDL21: 2
+      MDL24: 2
+      MDL19: 2
+      MDL23: 2
+      VD13: 2
+      MDR24: 2
+      MDR23: 2
+      MDR19: 2
+      MDR21: 2
+      MDR22: 2
+      AVBL: 2
+  DB6:
+    synapses:
+      AVBR: 1
+      MDL20: 2
+      MDL19: 2
+      MDL17: 2
+      MDR20: 2
+      MDR17: 2
+      AVAL: 3
+      MDR19: 2
+      AVBL: 2
+  VB7:
+    synapses:
+      AVBR: 2
+      MVR15: 5
+      DD4: 2
+      VB2: 2
+      MVL15: 5
+      AVBL: 2
+  URAVR:
+    synapses:
+      MVR04: 2
+      IL1R: 1
+      MVR01: 2
+      MVR02: 2
+      MVR03: 2
+      RIPR: 3
+      RMDVL: 1
+      RMEV: 2
+      RMER: 2
+  NSMR:
+    synapses:
+      M3R: 1
+      I2R: 6
+      I5: 2
+      I4: 3
+      I1R: 2
+      I1L: 2
+      M3L: 1
+      I2L: 6
+      I6: 2
+      I3: 2
+  ASKR:
+    synapses:
+      AWAR: 1
+      RIFR: 1
+      CEPVR: 1
+      AIAR: 11
+      AIMR: 1
+      RMGR: 1
+      ASKL: 1
+      ASHR: 1
+      PVQR: 4
+  RMFR:
+    synapses:
+      AVKR: 3
+      AVKL: 3
+      RMDL: 2
+  AWCR:
+    synapses:
+      AIBR: 4
+      AIYR: 9
+      AIAR: 1
+      ASGR: 1
+      AWCL: 5
+      ASEL: 1
+      AIYL: 4
+  AVAR:
+    synapses:
+      PDEL: 1
+      PVCR: 3
+      VA2: 2
+      DB3: 1
+      PVCL: 7
+      DB5: 2
+      PDER: 1
+      VA12: 1
+      DB6: 5
+      VA11: 7
+      VA8: 4
+      RIMR: 1
+      ADER: 1
+      VA10: 1
+      URYVL: 1
+      SABVR: 1
+      SABVL: 3
+      AVAL: 5
+      VA9: 6
+      AS11: 6
+      AS10: 1
+      AVER: 2
+      VA3: 2
+      VA6: 2
+      VA7: 4
+      SABD: 1
+      VA5: 3
+      AS3: 1
+      AS2: 2
+      AS1: 2
+      AS7: 5
+      AS6: 1
+      AS5: 1
+      AS4: 1
+      AS9: 1
+      AS8: 3
+      URYDR: 1
+      DA4: 2
+      DA5: 5
+      DA6: 2
+      DA7: 3
+      DA1: 6
+      DA2: 2
+      DA3: 2
+      RIML: 2
+      DA8: 1
+      DA9: 2
+      VD13: 2
+      LUAR: 3
+      AVEL: 2
+      RIGL: 1
+      AVDR: 2
+      VA4: 3
+      AVDL: 1
+      VB9: 4
+      LUAL: 1
+      AVBL: 1
+  RIS:
+    synapses:
+      AIBR: 1
+      RMDR: 4
+      AVKR: 4
+      RMDL: 2
+      SMDVR: 1
+      RIML: 1
+      SMDVL: 1
+      AVKL: 1
+      CEPVL: 2
+      DB1: 1
+      OLLR: 1
+      AVEL: 7
+      RIBR: 5
+      URYVR: 1
+      RIBL: 3
+      CEPVR: 1
+      AVER: 7
+      RIMR: 1
+      AVJL: 1
+      RMDDL: 1
+      CEPDR: 1
+      SMDDL: 1
+      AVL: 2
+      SMDDR: 1
+  VD10:
+    synapses:
+      AVBR: 1
+      MVR17: -9
+      MVR20: -9
+      VD9: 5
+      DVC: 4
+      DD5: 1
+      MVL17: -9
+      MVL20: -9
+      VB9: 2
+  RICR:
+    synapses:
+      SMDVR: 1
+      SMDVL: 2
+      ADAR: 1
+      AVAR: 5
+      SMBDR: 1
+      SMDDL: 4
+      AVAL: 5
+      SMDDR: 3
+      AVKL: 1
+      ASHR: 2
+  AVAL:
+    synapses:
+      FLPL: 1
+      AVJL: 2
+      PVCR: 5
+      PVCL: 2
+      DB5: 2
+      VA11: 1
+      VA12: 2
+      DB6: 3
+      RIMR: 3
+      VA9: 1
+      VA10: 1
+      AVAR: 5
+      PVPL: 1
+      SABVR: 1
+      VA8: 10
+      URYVR: 1
+      AS11: 4
+      AS10: 1
+      VA2: 4
+      VA3: 1
+      VA1: 3
+      VA6: 6
+      VA7: 2
+      SABD: 4
+      VA5: 5
+      AS3: 2
+      AS2: 1
+      AS1: 3
+      AS7: 6
+      AS6: 1
+      AS5: 1
+      AS4: 1
+      AS9: 4
+      AS8: 4
+      DA4: 3
+      DA5: 1
+      DA6: 10
+      DA7: 2
+      DA1: 2
+      DA2: 2
+      DA3: 6
+      DA8: 4
+      DA9: 3
+      AVBR: 1
+      SDQR: 1
+      AVHL: 1
+      URYDL: 1
+      VA4: 1
+      AVDL: 1
+      VB9: 5
+      LUAL: 1
+  VA9:
+    synapses:
+      AVBR: 1
+      VB8: 1
+      PVCR: 1
+      MVR15: 5
+      VD9: 10
+      MVR18: 5
+      DVC: 1
+      DVB: 1
+      VD7: 1
+      AVAL: 1
+      MVL15: 5
+      DD5: 15
+      MVL18: 5
+      VB9: 4
+      DD4: 3
+      PVT: 1
+  AWCL:
+    synapses:
+      AIBR: 1
+      AWCR: 1
+      RIAL: 3
+      AIAR: 4
+      AVAL: 1
+      AIAL: 2
+      ASEL: 1
+      AIBL: 1
+      AIYL: 10
+  AS11:
+    synapses:
+      MDL22: 1
+      MDL23: 1
+      MDL21: 1
+      VD13: 2
+      MDL24: 1
+      PDB: 2
+      PDA: 1
+      MDR24: 1
+      MDR21: 1
+      MDR22: 1
+      MDR23: 1
+  AS10:
+    synapses:
+      MDL20: 2
+      MDL19: 3
+      MDR20: 2
+      AVAR: 1
+      AVAL: 1
+      MDR19: 3
+  VA2:
+    synapses:
+      VD1: 1
+      MVR10: 5
+      DD1: 13
+      MVR07: 5
+      VB1: 2
+      MVL10: 5
+      AVAL: 4
+      VD2: 3
+      MVL07: 5
+      VA3: 2
+      SABD: 3
+  ASKL:
+    synapses:
+      PVQL: 5
+      ASKR: 1
+      RMGL: 1
+      AIML: 2
+      AIAL: 11
+      AIBL: 2
+  NSML:
+    synapses:
+      M3R: 1
+      I2R: 6
+      I5: 2
+      I4: 3
+      I1R: 2
+      I1L: 1
+      M3L: 1
+      I2L: 6
+      I6: 2
+      I3: 2
+  VA1:
+    synapses:
+      VD1: 2
+      MVR08: 3
+      DD1: 9
+      MVR07: 3
+      AVAL: 3
+      MVL07: 3
+      DA2: 2
+      MVL08: 3
+  VA6:
+    synapses:
+      MVR13: 5
+      VD5: 1
+      MVR14: 5
+      DD3: 24
+      VD6: 2
+      AVAR: 2
+      MVL13: 5
+      AVAL: 6
+      MVL14: 5
+      VB5: 2
+  VA7:
+    synapses:
+      MVR13: 4
+      MVULVA: 4
+      MVR15: 4
+      AS5: 1
+      DD3: 3
+      AVAR: 4
+      MVL13: 4
+      DD4: 12
+      VB3: 1
+      VD7: 9
+      AVAL: 2
+      MVL15: 4
+      MVL16: 4
+      MVR16: 4
+  VA4:
+    synapses:
+      AS2: 2
+      MVR11: 6
+      VD4: 3
+      VB3: 2
+      MVR12: 6
+      DD2: 21
+      AVAR: 3
+      MVL11: 6
+      DA5: 1
+      AVAL: 1
+      MVL12: 6
+      AVDL: 1
+      SABD: 1
+  VA5:
+    synapses:
+      AS3: 2
+      MVR11: 5
+      VD5: 2
+      MVR14: 5
+      DD3: 13
+      DD2: 5
+      AVAR: 3
+      MVL11: 5
+      DA5: 2
+      AVAL: 5
+      MVL14: 5
+  CEPDL:
+    synapses:
+      IL1DL: 4
+      URYDL: 2
+      SMBDR: 1
+      OLLL: 2
+      URBL: 4
+      RMGL: 4
+      URADL: 2
+      RICR: 2
+      RIS: 1
+      RMDVL: 3
+      RIPL: 2
+      RICL: 1
+      SIADR: 1
+      RIBL: 2
+      RIH: 1
+      AVER: 5
+      RMHR: 4
+      OLQDL: 1
+  URYVL:
+    synapses:
+      AVBR: 1
+      RIGL: 1
+      RMDVR: 2
+      SIBVR: 1
+      AVAR: 1
+      RIS: 1
+      SMDVR: 4
+      RMDDL: 4
+      RIBL: 2
+      RIH: 1
+      IL1VL: 1
+      AVER: 5
+      RIAL: 1
+  PVQL:
+    synapses:
+      HSNL: 2
+      ASJL: 1
+      RMGL: 1
+      ADAL: 1
+      AIAL: 3
+      ASKL: 5
+      PVQR: 2
+  FLPR:
+    synapses:
+      AVBR: 1
+      AIBR: 1
+      AVEL: 4
+      ADER: 1
+      AVDR: 1
+      AVJR: 1
+      AVAR: 5
+      VB1: 1
+      AVAL: 12
+      FLPL: 2
+      DVA: 1
+      AVER: 2
+      AVDL: 1
+      PVCL: 2
+      AVBL: 5
+  AVJR:
+    synapses:
+      AVBR: 1
+      PVCR: 4
+      AVDR: 3
+      PVQR: 1
+      AVAR: 1
+      SABVL: 1
+      AVAL: 1
+      AVJL: 4
+      AVER: 3
+      AVDL: 1
+      PVCL: 1
+      AVBL: 3
+  URYDR:
+    synapses:
+      AVEL: 2
+      AVAR: 1
+      RIBR: 1
+      RMDDL: 3
+      SMDDL: 4
+      RIGR: 1
+      AVER: 2
+      RMDVR: 5
+  IL2VR:
+    synapses:
+      RIAR: 2
+      IL1VR: 6
+      RMER: 2
+      URXR: 1
+      RMEV: 3
+      RIPR: 15
+      RMEL: 3
+      RIH: 3
+      OLQVR: 1
+      URAVR: 4
+  IL2VL:
+    synapses:
+      BAGR: 1
+      URAVL: 3
+      OLQVL: 1
+      RMER: 4
+      IL2L: 1
+      RMEV: 1
+      RIPL: 11
+      RMEL: 1
+      RIH: 2
+      IL1VL: 7
+      RIAL: 1
+  URYDL:
+    synapses:
+      RIGL: 1
+      RMDDR: 4
+      RMDVL: 6
+      SMDDL: 1
+      AVAL: 1
+      SMDDR: 1
+      RIBL: 1
+      AVER: 2
+  FLPL:
+    synapses:
+      AVBR: 5
+      AIBR: 2
+      ADER: 2
+      AVDR: 13
+      FLPR: 2
+      DVA: 1
+      AVAR: 17
+      AVAL: 1
+      RIH: 1
+      ADEL: 2
+      AVDL: 1
+      AIBL: 1
+      AVBL: 4
+  AVJL:
+    synapses:
+      AVBR: 4
+      PVNR: 1
+      PVCL: 1
+      PVCR: 3
+      AVEL: 1
+      AVDR: 2
+      AVJR: 4
+      RIFR: 1
+      AVAR: 1
+      AVHL: 2
+      PLMR: 2
+      AVAL: 2
+      RIS: 1
+      AVDL: 1
+      HSNR: 1
+      AVFR: 1
+      AVBL: 1
+  URBR:
+    synapses:
+      AVBR: 1
+      URXR: 4
+      OLQDR: 1
+      RMDR: 1
+      ADAR: 1
+      RMDL: 1
+      RICR: 1
+      RMFL: 1
+      IL2R: 1
+      OLQVR: 1
+      SIAVR: 2
+      SMBDL: 1
+      IL1R: 3
+      CEPDR: 1
+  RMDR:
+    synapses:
+      RIAR: 7
+      RIMR: 2
+      MDL03: 1
+      RMDVR: 1
+      MDL05: 1
+      RIS: 1
+      MVL03: 1
+      MDR05: 1
+      AVKL: 1
+      MVL05: 1
+      RMDDL: 1
+      RIAL: 3
+      RMDL: 1
+  CEPDR:
+    synapses:
+      OLQDR: 2
+      RMHL: 4
+      SMBDR: 1
+      AVEL: 6
+      RMDVR: 2
+      IL1R: 1
+      RIBR: 1
+      RICR: 3
+      RIS: 1
+      SIADL: 1
+      BDUR: 1
+      RICL: 4
+      RMGR: 1
+      URADR: 1
+      RIH: 1
+      RMDDL: 1
+      URBR: 2
+      OLLR: 8
+      RMHR: 1
+      URYDR: 1
+      IL1DR: 5
+  AVBR:
+    synapses:
+      DVA: 1
+      DB1: 3
+      DB3: 1
+      HSNR: 1
+      DB5: 1
+      DB4: 1
+      DB7: 1
+      DB6: 1
+      DB2: 1
+      VB11: 1
+      VB10: 1
+      DD1: 1
+      RIBR: 1
+      AVAR: 7
+      VA8: 1
+      AVAL: 6
+      VA9: 1
+      RIBL: 1
+      AS10: 1
+      RID: 2
+      VA4: 1
+      AS3: 1
+      AS1: 1
+      AS7: 2
+      AS6: 1
+      AS5: 1
+      AS4: 1
+      DA5: 1
+      VD10: 1
+      VD3: 1
+      SIBVL: 1
+      VB3: 1
+      VB2: 1
+      VB7: 2
+      VB6: 2
+      VB4: 1
+      VB9: 6
+      VB8: 3
+      PVNL: 2
+      AVBL: 3
+  VD13:
+    synapses:
+      MVR24: -9
+      PVCL: 1
+      MVR22: -9
+      MVR23: -9
+      MVR21: -9
+      AVAR: 2
+      PVPL: 2
+      MVL21: -9
+      MVL22: -9
+      MVL23: -9
+      VA12: 1
+      PVCR: 1
+  ASJL:
+    synapses:
+      ASJR: 1
+      ASKL: 4
+      HSNR: 1
+      HSNL: 1
+      PVQL: 14
+  ALML:
+    synapses:
+      CEPDL: 3
+      PVR: 1
+      PVCR: 1
+      AVEL: 1
+      BDUL: 6
+      RMGL: 1
+      AVDR: 1
+      RMDDR: 1
+      AVM: 1
+      CEPVL: 2
+      SDQL: 1
+      PVCL: 2
+  PVQR:
+    synapses:
+      VD1: 1
+      AWAR: 2
+      AVFL: 1
+      PVT: 1
+      ASKR: 4
+      ASER: 1
+      ADAR: 1
+      AIAR: 7
+      PVQL: 2
+      RIFR: 1
+      DVC: 1
+      AVL: 1
+      DD1: 1
+      HSNR: 1
+      PVNL: 1
+      AVFR: 1
+      AVBL: 1
+  AWBR:
+    synapses:
+      AVBR: 2
+      RIAR: 1
+      RIR: 2
+      RICL: 1
+      ADFR: 4
+      AWBL: 1
+      ASGR: 1
+      RMGR: 1
+      SMBVR: 1
+      AIZR: 4
+      ASHR: 2
+      AUAR: 1
+  IL2L:
+    synapses:
+      AVEL: 1
+      OLQVL: 8
+      RMER: 2
+      RMEV: 2
+      RICL: 1
+      IL1L: 1
+      URXL: 2
+      RIH: 7
+      RMDL: 3
+      ADEL: 2
+      RMDR: 1
+      RMGL: 1
+      OLQDL: 5
+  RMHR:
+    synapses:
+      MDL01: 2
+      RMGL: 1
+      MDL03: 2
+      MDL05: 2
+      MVL01: 2
+      RMGR: 1
+      RMER: 1
+  AWBL:
+    synapses:
+      AUAL: 1
+      AIBR: 1
+      AIZL: 9
+      RMGL: 1
+      AWBR: 1
+      ADFL: 9
+      SMBDL: 1
+      RIAL: 3
+      AVBL: 1
+  IL2R:
+    synapses:
+      OLQDR: 2
+      URBR: 1
+      ADER: 1
+      IL1VR: 1
+      IL1R: 1
+      RMDL: 1
+      RMEV: 1
+      RMEL: 2
+      RIH: 6
+      OLQVR: 7
+      URXR: 1
+      RMGR: 1
+      OLLR: 1
+  ALMR:
+    synapses:
+      PVCR: 3
+      CEPVR: 1
+      SIADL: 1
+      BDUR: 5
+      AVM: 1
+      RMDDL: 1
+      CEPDR: 1
+  ASJR:
+    synapses:
+      HSNR: 1
+      PVQR: 13
+      ASJL: 1
+      ASKR: 4
+  DB4:
+    synapses:
+      AVBR: 1
+      VB2: 1
+      DD3: 3
+      MDL16: 2
+      MDL14: 2
+      MDL13: 2
+      VD6: 13
+      MDR14: 2
+      MDR16: 2
+      MDR13: 2
+      VB4: 1
+      DB1: 1
+      DB3: 1
+      AVBL: 1
+  PVDL:
+    synapses:
+      PVCR: 6
+      AVAR: 6
+      DD5: 1
+      AVAL: 6
+      PVCL: 1
+      VD10: 1
+  AVBL:
+    synapses:
+      DVA: 1
+      DB3: 1
+      DB5: 1
+      DB4: 1
+      DB7: 2
+      DB6: 2
+      AVEL: 1
+      AQR: 1
+      VA10: 1
+      RIBR: 1
+      AVAR: 7
+      AVAL: 7
+      VC3: 1
+      RIBL: 1
+      AS10: 1
+      AVER: 2
+      RID: 1
+      VA7: 1
+      AS3: 1
+      AS7: 2
+      AS6: 1
+      AS5: 1
+      AS4: 1
+      AS9: 1
+      VA2: 1
+      AVBR: 3
+      PVNR: 1
+      SDQR: 1
+      VB11: 2
+      AVDR: 2
+      SIBVL: 1
+      VB10: 2
+      AVL: 1
+      VB2: 3
+      VB1: 1
+      VB7: 2
+      VB6: 1
+      VB5: 1
+      VB4: 1
+      AVDL: 1
+      VB9: 1
+      VB8: 7
+  VD12:
+    synapses:
+      MVR22: -5
+      VB11: 1
+      VB10: 1
+      MVR19: -5
+      MVL19: -5
+      MVL21: -5
+      VA11: 3
+      VA12: 2
+  ASER:
+    synapses:
+      AWAR: 1
+      AIBR: 10
+      AIYR: 14
+      AFDL: 1
+      AIAR: 3
+      AWCR: 1
+      AIAL: 1
+      AFDR: 2
+      AIBL: 2
+      AIYL: 2
+      AWCL: 1
+  SAAVL:
+    synapses:
+      ALNL: 1
+      RIMR: 12
+      RMDVL: 2
+      AVAL: 16
+      RMFR: 2
+      SMDDR: 8
+      SMBVR: 3
+      RIML: 2
+      OLLR: 1
+      AIBL: 1
+  RMGL:
+    synapses:
+      AIBR: 1
+      ADLL: 1
+      RMDR: 3
+      SMBVL: 1
+      RMDVL: 3
+      URXL: 1
+      RMDL: 1
+      ALNL: 1
+      RMHL: 3
+      AVEL: 2
+      MDL05: 2
+      AVAL: 1
+      ADAL: 1
+      MVL05: 2
+      ASKL: 1
+      RID: 1
+      RMHR: 1
+      CEPDL: 1
+      ASHL: 1
+      AVBR: 2
+      SIAVL: 1
+      ALML: 1
+      SIBVL: 2
+      IL2L: 1
+      AWBL: 1
+      SIBVR: 1
+  SMDDL:
+    synapses:
+      MDL08: 1
+      MVL02: 1
+      RIAR: 1
+      RIBR: 1
+      MDL04: 1
+      RIS: 1
+      MDL06: 1
+      SMDVR: 2
+      MDR06: 1
+      MDR07: 1
+      MDR04: 1
+      MDR05: 1
+      MDR02: 1
+      MDR03: 1
+      MVL04: 1
+      RMDDL: 1
+      RIAL: 1
+      RIBL: 1
+  M5:
+    synapses:
+      M5: 4
+      I5: 1
+      M2R: 2
+      I6: 1
+      M2L: 2
+      M1: 1
+  M4:
+    synapses:
+      M5: 1
+      NSMR: 1
+      I3: 1
+      I5: 13
+      M2R: 1
+      I6: 1
+      M2L: 1
+      M4: 6
+      NSML: 1
+  RID:
+    synapses:
+      AS2: 1
+      MDL21: -3
+      VD5: 1
+      PDB: 2
+      AVBR: 2
+      DD3: 3
+      DD2: 4
+      DD1: 4
+      MDL14: -2
+      ALA: 1
+      DA6: 3
+      DB1: 1
+      DA9: 1
+      VD13: 1
+      AVBL: 1
+  M1:
+    synapses:
+      I2R: 2
+      I2L: 2
+      I3: 1
+      I4: 1
+  URXL:
+    synapses:
+      ASHL: 1
+      AUAL: 5
+      RIGL: 3
+      AVEL: 4
+      AVJR: 1
+      RMGL: 1
+      RICL: 1
+      RIAL: 8
+      AVBL: 1
+  ASEL:
+    synapses:
+      AIBR: 2
+      AIYR: 6
+      AWCR: 1
+      RIAR: 1
+      ADFR: 1
+      AIAL: 3
+      AIBL: 7
+      AIYL: 13
+      AWCL: 4
+  ALA:
+    synapses:
+      AVEL: 2
+      RMDR: 1
+      AVER: 1
+      AVAL: 1
+      ADEL: 1
+      RID: 1
+  SMBDL:
+    synapses:
+      SAAVR: 1
+      AVKR: 1
+      AVAR: 1
+      MDR06: 3
+      MDR04: 2
+      AVKL: 1
+      MDR03: 2
+      MDR01: 2
+      MDR02: 2
+      SAADL: 1
+      RMED: 3
+      RIBL: 1
+  VA11:
+    synapses:
+      PVNR: 2
+      MVR20: 5
+      VB10: 1
+      MVR19: 5
+      AVAR: 7
+      DD6: 10
+      MVL20: 5
+      AVAL: 1
+      MVL19: 5
+      VD12: 4
+  VA12:
+    synapses:
+      PVCR: 3
+      PVCL: 2
+      VA11: 1
+      DB7: 4
+      VB11: 1
+      AVAR: 1
+      DD6: 2
+      AS11: 2
+      MVL21: 5
+      MVL22: 5
+      MVL23: 5
+      PHCL: 1
+      PHCR: 1
+      DA8: 3
+      DA9: 5
+      VD13: 11
+      VD12: 3
+      MVR24: 5
+      MVR22: 5
+      MVR23: 5
+      MVR21: 5
+      LUAL: 2
+  ALNL:
+    synapses:
+      SMDVL: 1
+      SMBDR: 1
+      SAAVL: 3
+  HSNR:
+    synapses:
+      AIBR: 1
+      HSNL: 1
+      AIBL: 1
+      RIFR: 4
+      SABVR: 1
+      VC2: 3
+      VC3: 1
+      VA6: 1
+      SABD: 1
+      AIZL: 1
+      AS5: 1
+      DA5: 1
+      DA6: 1
+      MVULVA: 6
+      AVJL: 1
+      AIZR: 1
+      ASHL: 2
+      PVNR: 1
+      AVFL: 1
+      VD4: 2
+      AVDR: 1
+      BDUR: 1
+      AVL: 1
+      AWBL: 1
+      RMGR: 1
+      PVQR: 1
+  RMDDR:
+    synapses:
+      URYDL: 1
+      MDL01: 1
+      MDL02: 1
+      MDL03: 2
+      MDL04: 1
+      MVR01: 1
+      MVR02: 1
+      MDR04: 1
+      SMDDR: 1
+      RMDVL: 12
+      OLQVR: 1
+      RMDVR: 1
+      SAADR: 1
+  PLNL:
+    synapses:
+      SAADL: 5
+      SMBVL: 6
+  VB10:
+    synapses:
+      AVBR: 1
+      VD12: 2
+      PVT: 1
+      MVR20: 5
+      MVR19: 5
+      DD6: 9
+      MVL20: 5
+      AVKL: 1
+      MVL19: 5
+      PVCL: 1
+      VD11: 1
+      AVBL: 2
+  DD3:
+    synapses:
+      DD2: 2
+      MDL14: -7
+      MDL13: -9
+      MDL11: -7
+      DD4: 1
+      MDR14: -7
+      MDR11: -7
+      MDR13: -9
+  DD2:
+    synapses:
+      MDL09: -6
+      VD3: 1
+      VD4: 2
+      DD3: 2
+      DD1: 1
+      MDR12: -6
+      MDL12: -6
+      MDL11: -7
+      MDR11: -7
+      DA3: 1
+      MDR09: -6
+  ADAR:
+    synapses:
+      AVBR: 5
+      AIBR: 1
+      RIMR: 5
+      AVEL: 1
+      RIVR: 1
+      RICL: 1
+      ADFR: 1
+      RIPR: 1
+      AVAL: 1
+      SMDVL: 2
+      ADAL: 1
+      AVJL: 3
+      AVDL: 2
+      PVQR: 1
+      AIBL: 1
+      ASHR: 1
+      AVBL: 1
+  DD6:
+    synapses:
+      MDL22: -7
+      MDL23: -7
+      MDL21: -7
+      MDL19: -7
+      MDL24: -7
+      MDR24: -7
+      MDR19: -7
+      MDR21: -7
+      MDR22: -7
+      MDR23: -7
+  DD5:
+    synapses:
+      MDL20: -7
+      MDL18: -7
+      MDL17: -7
+      VD10: 1
+      VD9: 1
+      MDR17: -7
+      VB8: 1
+      MDR20: -7
+      MDR18: -7
+  ADLR:
+    synapses:
+      AVBR: 2
+      AIBR: 10
+      ADLL: 1
+      AWCR: 3
+      AVDR: 2
+      ASER: 1
+      AIAR: 10
+      AVAR: 2
+      PVCL: 1
+      RICR: 1
+      RICL: 1
+      AVJR: 1
+      AVDL: 5
+      OLLR: 1
+      ASHR: 3
+      AVBL: 1
+  M2L:
+    synapses:
+      I3: 1
+      MI: 2
+      M2R: 1
+      I1R: 3
+      M5: 1
+      I1L: 3
+  SMDDR:
+    synapses:
+      MDL08: 1
+      VD1: 1
+      RIAR: 1
+      RMDDR: 1
+      RIBR: 1
+      MDL04: 1
+      MDL05: 1
+      MDL06: 1
+      RIS: 1
+      MDR06: 1
+      MDR04: 1
+      MVR02: 1
+      RIAL: 2
+  ADAL:
+    synapses:
+      ASHL: 1
+      AVBR: 7
+      AIBR: 2
+      AVEL: 1
+      AVDR: 2
+      FLPR: 1
+      AVJR: 5
+      ADAR: 1
+      AVAR: 2
+      SMDVR: 2
+      RICR: 1
+      PVQL: 1
+      ADFL: 1
+      RICL: 1
+      RIML: 3
+      AVDL: 1
+      RIPL: 1
+      AIBL: 1
+      AVBL: 4
+  DD4:
+    synapses:
+      DD3: 1
+      MDL16: -7
+      MDL15: -7
+      MDL13: -7
+      MDR15: -7
+      MDR16: -7
+      MDR13: -7
+      VD8: 1
+      VC3: 1
+  URXR:
+    synapses:
+      AVBR: 2
+      RIAR: 3
+      SIAVR: 1
+      RIPR: 3
+      RMDR: 1
+      RIGR: 2
+      IL2R: 1
+      RMGR: 1
+      OLQVR: 1
+      AVER: 2
+      AUAR: 4
+      AVBL: 1
+  PLNR:
+    synapses:
+      SAADR: 4
+      SMBVR: 6
+  PVDR:
+    synapses:
+      PVCR: 10
+      AVAR: 9
+      PVDL: 1
+      DVA: 3
+      AVAL: 6
+      VA9: 1
+      PVCL: 13
+  RIH:
+    synapses:
+      CEPVR: 1
+      CEPVL: 1
+      RIPL: 4
+      RIPR: 6
+      OLQVR: 6
+      OLQDR: 1
+      RIBR: 4
+      URYVR: 1
+      RIBL: 5
+      OLQVL: 1
+      AUAR: 1
+      OLQDL: 4
+      CEPDL: 1
+      AIZL: 4
+      RMER: 2
+      RMEV: 1
+      FLPL: 1
+      AIZR: 4
+      CEPDR: 1
+      BAGR: 1
+      RIAR: 8
+      IL2L: 2
+      ADFR: 1
+      IL2R: 1
+      RIAL: 10
+  PHAL:
+    synapses:
+      PVQL: 2
+      AVFL: 3
+      AVDR: 1
+      PHBR: 5
+      DVA: 2
+      AVHL: 1
+      PHAR: 2
+      AVHR: 1
+      PHBL: 5
+      AVG: 5
+  SABD:
+    synapses:
+      VA2: 3
+      VA3: 2
+      AVAL: 4
+      VA4: 1
+  ALNR:
+    synapses:
+      ADER: 1
+      SAAVR: 2
+      SMBDL: 2
+      SMDVL: 1
+      SMDDR: 1
+      RMHR: 1
+  AUAL:
+    synapses:
+      AINR: 1
+      AVEL: 3
+      AVDR: 1
+      AVAL: 3
+      AWBL: 1
+      RIBL: 9
+      RIAL: 5
+      AUAR: 1
+  SABVR:
+    synapses:
+      AVAL: 1
+      AVAR: 1
+      DA1: 3
+  RIMR:
+    synapses:
+      AIYR: 1
+      RMDR: 1
+      RMFL: 1
+      AVKL: 1
+      RMDL: 3
+      AIBL: 1
+      AVEL: 3
+      ADAR: 1
+      RIBR: 1
+      AVAR: 1
+      MDL05: 1
+      MDL07: 1
+      AVAL: 3
+      RMFR: 1
+      MVL07: 1
+      MVL05: 1
+      AVER: 2
+      SAAVL: 3
+      SAAVR: 3
+      AVJL: 1
+      AVBR: 5
+      SMDDL: 2
+      SMDDR: 4
+      RIS: 1
+      AVBL: 2
+  RMER:
+    synapses:
+      MDL01: -7
+      MDL03: -7
+      MVL01: -7
+      RMEV: 1
+  AIAR:
+    synapses:
+      AWAR: 1
+      AIBR: 14
+      RIFR: 2
+      ASER: 1
+      ADAR: 1
+      AWCR: 3
+      ADFR: 1
+      ASGR: 1
+      AIAL: 1
+      ASIR: 2
+      AIZR: 1
+      ADLR: 2
+      AWCL: 1
+  RMEV:
+    synapses:
+      IL1DL: 1
+      AVEL: 1
+      MDL02: -3
+      MDL04: -3
+      MDL06: -3
+      MDR04: -3
+      SMDDR: 1
+      MDR02: -3
+      AVER: 1
+      RMEL: 1
+      RMED: 2
+      RMER: 1
+      IL1DR: 1
+  RMEL:
+    synapses:
+      RIGL: 1
+      MVR01: -5
+      RMEV: 1
+      MVR03: -5
+      MDR03: -5
+      MDR01: -5
+  AIAL:
+    synapses:
+      ASHL: 1
+      AWCR: 1
+      ASIL: 2
+      AIZL: 1
+      HSNL: 1
+      ASER: 3
+      RMGL: 1
+      AIAR: 1
+      ASGL: 1
+      AIML: 2
+      ADAL: 1
+      RIFL: 1
+      ASKL: 3
+      AIBL: 10
+      AWAL: 1
+  RIML:
+    synapses:
+      AVBR: 3
+      AIBR: 1
+      SMDVL: 1
+      AVEL: 2
+      RMFR: 1
+      MVR05: 2
+      SAADR: 1
+      AVAR: 2
+      RIS: 1
+      SAAVL: 3
+      SAAVR: 2
+      AVAL: 1
+      MDR05: 2
+      SMDDR: 5
+      RIBL: 1
+      RMDL: 1
+      AVER: 3
+      RMDR: 1
+      AIYL: 1
+      AVBL: 2
+  RMED:
+    synapses:
+      RMEV: 2
+      MVR04: -4
+      RIBR: 1
+      MVR02: -4
+      RIPL: 1
+      MVL02: -4
+      RIPR: 1
+      MVL06: -4
+      RIBL: 1
+      MVL04: -4
+      IL1VL: 1
+  VB9:
+    synapses:
+      AVBR: 6
+      VB8: 3
+      MVR17: 6
+      MVR20: 6
+      AVAR: 4
+      VA8: 3
+      DD5: 8
+      DVB: 1
+      AVAL: 5
+      VA9: 4
+      MVL17: 6
+      MVL20: 6
+      PVCL: 2
+      VD10: 5
+      AVBL: 1
+  AUAR:
+    synapses:
+      AUAL: 1
+      RIAR: 6
+      AIYR: 1
+      AWBR: 1
+      RIBR: 13
+      AVAR: 1
+      AVER: 4
+      URXR: 1
+      AINL: 1
+  VD1:
+    synapses:
+      VD2: 7
+      MVR08: -5
+      RIGL: 2
+      MVR05: -5
+      DD1: 4
+      DVC: 5
+      VC1: 1
+      SMDDR: 1
+      MVL05: -5
+      VA2: 1
+      RIFL: 1
+      MVL08: -5
+      VA1: 2
+  VC1:
+    synapses:
+      VD1: 1
+      VD3: 1
+      MVULVA: 6
+      VD5: 5
+      PVT: 2
+      VD6: 1
+      DD3: 6
+      DD2: 6
+      DD1: 7
+      DVC: 1
+      AVL: 2
+      VC2: 6
+      VC3: 2
+      VD2: 1
+      VD4: 2
+  PVNR:
+    synapses:
+      VD6: 1
+      PVCL: 1
+      HSNR: 1
+      PVT: 2
+      AVEL: 3
+      DD3: 1
+      MVL13: 2
+      VC2: 1
+      VC3: 1
+      AVJR: 1
+      AVJL: 4
+      VD12: 1
+      AVBR: 2
+      AVAL: 2
+      VD7: 1
+      AVDR: 1
+      PVWL: 2
+      BDUR: 2
+      AVL: 2
+      BDUL: 1
+      PQR: 2
+      MVL12: 1
+      PVNL: 1
+      AVBL: 1
+  PLML:
+    synapses:
+      PHCL: 1
+      PVCL: 1
+      HSNL: 1
+      LUAL: 1
+  VD5:
+    synapses:
+      VD4: 1
+      MVR14: -17
+      VD6: 2
+      AVAR: 1
+      PVPR: 1
+      MVL14: -17
+      VB4: 2
+      VA5: 2
+  RICL:
+    synapses:
+      ASHL: 2
+      SMDDR: 3
+      RIMR: 3
+      AWBR: 1
+      ADAR: 1
+      AVAR: 6
+      SMDDL: 3
+      SMDVR: 1
+      AVAL: 5
+      RMFR: 1
+      AVKL: 1
+      RIVR: 1
+      RIML: 1
+      SMBDL: 2
+      AVKR: 1
+  AINR:
+    synapses:
+      BAGR: 3
+      AUAL: 1
+      ASER: 1
+      AFDL: 4
+      AFDR: 1
+      ASGL: 1
+      RIBL: 2
+      AIAL: 2
+      ASEL: 1
+      AINL: 2
+      RID: 1
+      AIBL: 2
+      AUAR: 1
+  PVWL:
+    synapses:
+      PVWR: 1
+      PVT: 2
+      PVCR: 2
+      VA12: 1
+      AVJL: 1
+  VD9:
+    synapses:
+      MVR17: -10
+      MVR18: -10
+      VD10: 5
+      MVL17: -10
+      MVL18: -10
+      PDER: 1
+  SIBVL:
+    synapses:
+      AVBR: 1
+      SIBDL: 1
+      SDQR: 1
+      RIBL: 1
+      AVBL: 1
+  SAADR:
+    synapses:
+      RIMR: 5
+      AIBR: 1
+      OLLL: 1
+      RMDDR: 1
+      RMGL: 1
+      AVAR: 3
+      RMFL: 1
+      RIML: 4
+  RIFR:
+    synapses:
+      HSNR: 1
+      AVBR: 17
+      AVFL: 1
+      PVCR: 1
+      RIMR: 4
+      AVJR: 2
+      PVCL: 1
+      AVHL: 1
+      PVPR: 4
+      RIPR: 1
+      AVJL: 1
+      AVG: 1
+      ASHR: 2
+      AVBL: 1
+  MI:
+    synapses:
+      M3R: 1
+      I3: 1
+      I5: 2
+      I4: 1
+      M2R: 2
+      I1R: 1
+      M2L: 2
+      I1L: 1
+      M3L: 1
+      M1: 1
+      MCR: 2
+      MCL: 2
+  AVHL:
+    synapses:
+      VD1: 1
+      AVBR: 1
+      AVFL: 2
+      SMBVR: 2
+      RIMR: 1
+      PVQL: 1
+      PHBR: 1
+      RIR: 3
+      AWBR: 1
+      SMBDR: 1
+      ADFR: 3
+      PVPR: 2
+      AVHR: 1
+      AVJL: 3
+      AVDL: 1
+      PVQR: 2
+      AVFR: 2
+      AVBL: 1
+  ADFR:
+    synapses:
+      RIAR: 16
+      AIYR: 1
+      RIR: 3
+      ADAR: 1
+      AIAR: 1
+      AWBR: 1
+      SMBDR: 1
+      PVPR: 1
+      SMBVR: 2
+      URXR: 1
+      RIGR: 3
+      AIZR: 8
+      ASHR: 1
+      AUAR: 4
+  AVL:
+    synapses:
+      SABVL: 4
+      MVR10: -5
+      SABVR: 3
+      AVEL: 1
+      PVWL: 1
+      DD1: 1
+      DD6: 2
+      DVC: 9
+      DVB: 1
+      PVPR: 1
+      MVL10: -5
+      DA2: 1
+      HSNR: 1
+      PVM: 1
+      AVFR: 1
+      SABD: 5
+      VD12: 4
+  AVM:
+    synapses:
+      AVBR: 6
+      PVR: 3
+      PVCR: 5
+      ADER: 1
+      ALML: 1
+      AVJR: 1
+      BDUR: 2
+      BDUL: 3
+      DA1: 1
+      ALMR: 1
+      SIBVL: 1
+      VA1: 2
+      AVDL: 2
+      RID: 1
+      PVCL: 4
+      PVNL: 1
+      AVBL: 6
+  AVHR:
+    synapses:
+      AVBR: 1
+      ADLL: 1
+      RIGL: 1
+      AVDR: 1
+      AVJR: 4
+      AQR: 2
+      RIR: 4
+      AVHL: 1
+      PVPL: 3
+      AVFR: 1
+      SMBVL: 1
+      AVFL: 3
+      SMBDL: 1
+      PVNL: 1
+      ADLR: 2
+      AVBL: 2
+  SAADL:
+    synapses:
+      RIMR: 6
+      AVAL: 6
+      SMBDL: 1
+      RMGR: 1
+      RIML: 3
+      AIBL: 1
+  SIBVR:
+    synapses:
+      SIBDR: 1
+      RIBR: 1
+      RMHL: 1
+      RIBL: 1
+  AINL:
+    synapses:
+      RIBR: 2
+      AINR: 2
+      AFDR: 5
+      ASGR: 1
+      RIBL: 1
+      ASEL: 3
+      ADEL: 1
+      BAGL: 3
+      AUAR: 1
+  PVWR:
+    synapses:
+      PVT: 1
+      AVAR: 1
+      PVCR: 1
+      VA12: 1
+      AVDR: 1
+  AVG:
+    synapses:
+      AVBR: 2
+      PVNR: 1
+      AVFL: 1
+      PVPR: 1
+      PVT: 1
+      AVEL: 1
+      AVDR: 1
+      PVQR: 1
+      AVAR: 3
+      RIFR: 1
+      AVL: 1
+      PHAL: 2
+      AVJL: 1
+      AVER: 1
+      RIFL: 1
+      PVCL: 1
+      DA8: 1
+      VA11: 1
+      AVBL: 1
+  PVNL:
+    synapses:
+      AVBR: 2
+      PVNR: 5
+      MVL09: 3
+      PVT: 1
+      AVEL: 1
+      AVDR: 3
+      AVJR: 5
+      DD1: 2
+      PVWL: 1
+      PVCL: 1
+      PQR: 1
+      BDUR: 2
+      AVL: 2
+      BDUL: 1
+      AVAL: 2
+      AVJL: 5
+      AVDL: 3
+      AVG: 1
+      RIFL: 1
+      AVFR: 1
+      PVQR: 1
+  PLMR:
+    synapses:
+      LUAR: 1
+      PDEL: 2
+      AS6: 1
+      AVDR: 4
+      DVA: 5
+      AVAR: 1
+      PVCL: 2
+      AVAL: 4
+      PVR: 2
+      AVDL: 1
+      HSNR: 1
+      PDER: 3
+      PVCR: 1
+  VC2:
+    synapses:
+      VD1: 2
+      MVULVA: 10
+      VD5: 5
+      PVCR: 1
+      VD6: 1
+      DD3: 9
+      DD2: 4
+      DD1: 6
+      DVC: 1
+      VC1: 6
+      VC3: 2
+      PVT: 2
+      VD4: 5
+      VD2: 2
+      DB4: 1
+      PVQR: 1
+  SIBDL:
+    synapses:
+      SIBVL: 1
+      RIBL: 1
+  IL1DL:
+    synapses:
+      PVR: 1
+      OLLL: 1
+      RMDDR: 1
+      MDL01: 1
+      MDL02: 1
+      MDL04: 2
+      RMEV: 1
+      RIPL: 2
+      RMDVL: 4
+      URYDL: 1
+      IL1L: 1
+      RIH: 1
+      IL1DR: 1
+  RIBR:
+    synapses:
+      SIBDR: 1
+      SMBDR: 1
+      SMDVL: 2
+      OLQVR: 1
+      AIBL: 1
+      OLQDR: 2
+      PVT: 1
+      AVEL: 3
+      RIBR: 1
+      AVAR: 2
+      SIADR: 1
+      RIBL: 3
+      RIH: 1
+      AVER: 1
+      RIGR: 1
+      AIZR: 1
+      AVBR: 1
+      RIAR: 2
+      SMDDL: 1
+      SMDDR: 1
+      SIBVR: 1
+      SIAVR: 1
+      BAGL: 1
+      AVBL: 1
+  OLLL:
+    synapses:
+      CEPDL: 3
+      URYDL: 1
+      RIGL: 1
+      IL1DL: 1
+      CEPVL: 4
+      SMDDL: 3
+      SMDVR: 4
+      RMDDL: 7
+      RMDVL: 1
+      SMDDR: 4
+      RMEL: 2
+      RIBL: 8
+      IL1VL: 2
+      AVER: 21
+      OLLR: 2
+      RMDL: 2
+  RIR:
+    synapses:
+      BAGR: 1
+      AUAL: 1
+      RIAR: 1
+      AIZL: 3
+      HSNL: 1
+      RIGL: 1
+      DVA: 2
+      URXR: 1
+      AWBR: 1
+      PVPL: 1
+      URXL: 5
+      AFDR: 1
+      AIZR: 5
+      RIAL: 5
+      BAGL: 1
+  IL1R:
+    synapses:
+      RMHL: 1
+      RMDDR: 2
+      AVEL: 1
+      URXR: 2
+      IL1VR: 1
+      RMDL: 4
+      RMDVR: 4
+      MVR01: 3
+      MVR03: 3
+      RMDDL: 3
+      RMDVL: 1
+      RMEL: 2
+      MDR03: 3
+      MDR01: 3
+      AVER: 1
+      RMDR: 2
+      IL1DR: 1
+  IL1VL:
+    synapses:
+      IL1VR: 1
+      URYVL: 1
+      RIPL: 4
+      MVL02: 4
+      MVL01: 5
+      IL1L: 1
+      RMDDL: 5
+      RMED: 1
+  DVA:
+    synapses:
+      PDEL: 3
+      PVCR: 1
+      RIR: 3
+      SMBDR: 2
+      SMBDL: 3
+      DB1: 1
+      DB3: 2
+      DB2: 1
+      DB5: 1
+      DB4: 1
+      DB7: 1
+      DB6: 2
+      PVCL: 1
+      AVEL: 9
+      AQR: 4
+      AVAR: 1
+      AVAL: 3
+      VA12: 1
+      AVER: 5
+      SABD: 1
+      AUAL: 1
+      AIZL: 3
+      RIMR: 1
+      SAAVL: 1
+      SAAVR: 1
+      VA2: 1
+      PVR: 2
+      AUAR: 1
+      AVBR: 1
+      RIAR: 1
+      VB11: 2
+      SAADR: 1
+      SMBVL: 3
+      VB1: 1
+      SMBVR: 2
+      RIAL: 1
+      AVBL: 1
+  SMBDR:
+    synapses:
+      ALNL: 1
+      RIBR: 1
+      AVKR: 2
+      MDL03: 1
+      MDL04: 1
+      MDR04: 1
+      MDL06: 2
+      AVAL: 1
+      AVKL: 1
+      SAAVL: 3
+      RMED: 4
+      MDL02: 1
+      MDR08: 1
+  DVC:
+    synapses:
+      VD1: 5
+      PVPR: 13
+      AIBR: 2
+      PVT: 1
+      RIGL: 5
+      VA9: 1
+      AVKR: 1
+      RIBR: 1
+      AVAR: 7
+      RMFL: 2
+      PVPL: 2
+      AVL: 9
+      AVAL: 5
+      RMFR: 4
+      AVKL: 2
+      RIBL: 1
+      RIGR: 5
+      AIBL: 1
+      VD10: 4
+      AVBL: 1
+  DVB:
+    synapses:
+      PHCL: 1
+      AS9: 7
+      DD6: 3
+      DVC: 3
+      AVL: 1
+      VA9: 1
+      PVPL: 1
+      MANAL: -5
+      VB9: 1
+      DA8: 2
+      PDA: 1
+  RMDDL:
+    synapses:
+      OLQVL: 1
+      RMDL: 1
+      RMDVR: 7
+      MVR01: 1
+      RMDVL: 1
+      SMDDL: 1
+      MDR04: 1
+      MDR02: 1
+      MDR03: 1
+      MDR01: 1
+      MDR08: 2
+  SIADL:
+    synapses:
+      RIBL: 1
+  PDEL:
+    synapses:
+      PVR: 2
+      PVCR: 1
+      VD11: 1
+      DVA: 24
+      VA9: 1
+      AVKL: 6
+      PVM: 1
+      PDER: 3
+  IL1L:
+    synapses:
+      IL1DL: 1
+      RMDR: 3
+      MDL01: 3
+      RMER: 1
+      MDL03: 3
+      RMDDL: 5
+      MDL05: 4
+      MVL03: 3
+      RMDVL: 4
+      MVL01: 3
+      IL1VL: 1
+      AVER: 2
+      RMDVR: 2
+      RMDL: 1
+  VD4:
+    synapses:
+      PVPR: 1
+      MVR11: -9
+      VD5: 1
+      MVR12: -9
+      DD2: 2
+      VD3: 1
+      MVL11: -9
+      MVL12: -9
+  RIVR:
+    synapses:
+      SMDVR: 2
+      AIBR: 1
+      RMDR: 1
+      SIAVL: 2
+      MVR04: -2
+      RIVL: 2
+      MVR06: -2
+      RMDVR: 1
+      RIAR: 1
+      RMEV: 1
+      SMDDL: 2
+      SDQR: 2
+      MVL06: -2
+      MVL05: -2
+      RMDDL: 1
+      SAADL: 2
+      MVL08: -2
+      RIAL: 2
+  I1R:
+    synapses:
+      RIPR: 1
+      I1L: 1
+      I3: 1
+      I5: 1
+      RIPL: 1
+  VC3:
+    synapses:
+      DVC: 1
+      HSNR: 1
+      DD3: 5
+      DD2: 4
+      DD1: 2
+      DD4: 1
+      PVPR: 1
+      VC1: 2
+      VC2: 2
+      VC4: 1
+      VC5: 2
+      VD3: 1
+      VD2: 1
+      VD1: 1
+      PVNR: 1
+      MVULVA: 11
+      VD5: 4
+      VD4: 2
+      VD7: 5
+      VD6: 4
+      AVL: 1
+      PVQR: 4
+  IL1DR:
+    synapses:
+      IL1DL: 1
+      IL1R: 1
+      RMDVR: 5
+      RMEV: 1
+      RIPR: 5
+      MDR02: 3
+      MDR01: 4
+      OLLR: 1
+  OLQDR:
+    synapses:
+      RMDVR: 1
+      RIBR: 2
+      RICR: 1
+      RMDDL: 3
+      RICL: 1
+      RIH: 1
+      SIBVR: 2
+      RIGR: 1
+      URBR: 1
+      RMHR: 1
+      CEPDR: 2
+  PVR:
+    synapses:
+      IL1DL: 1
+      PDEL: 1
+      PVCR: 1
+      AVJL: 3
+      DVA: 2
+      RIPL: 3
+      RIPR: 3
+      AVKL: 1
+      DB3: 1
+      DB2: 1
+      PDER: 1
+      IL1DR: 1
+      ADAL: 1
+      AVJR: 2
+      SABD: 1
+      URADL: 1
+      AS6: 1
+      IL1VR: 1
+      IL1VL: 1
+      DA9: 1
+      LUAR: 1
+      AVBR: 4
+      ALML: 1
+      PLMR: 2
+      LUAL: 1
+      AVBL: 4
+  PVT:
+    synapses:
+      RMEV: 1
+      AIBR: 1
+      RIGL: 2
+      AVKR: 7
+      RIBR: 1
+      RMFL: 2
+      DVC: 2
+      SMBDR: 1
+      AVL: 2
+      RMFR: 3
+      AVKL: 2
+      PVPL: 1
+      RIH: 1
+      RIGR: 3
+      AIBL: 1
+      RIBL: 1
+  AVEL:
+    synapses:
+      AS1: 1
+      VD2: 1
+      PVCR: 1
+      RIMR: 3
+      SABVL: 7
+      RMDVR: 1
+      AVAR: 7
+      VD3: 1
+      RMEV: 1
+      SABVR: 3
+      DA4: 1
+      RIML: 2
+      AVAL: 12
+      DA1: 5
+      DA2: 1
+      DA3: 3
+      AVER: 1
+      VA3: 3
+      VA1: 5
+      SABD: 6
+      PVT: 1
+  I1L:
+    synapses:
+      RIPR: 1
+      I3: 1
+      RIPL: 1
+      I5: 1
+      I1R: 1
+  IL2DL:
+    synapses:
+      AUAL: 1
+      IL1DL: 7
+      RMER: 3
+      URADL: 3
+      RIPL: 10
+      RMEL: 4
+      RIBL: 1
+      OLQDL: 2
+  ASGL:
+    synapses:
+      AIZL: 1
+      AIBL: 3
+      AIAL: 9
+      AINR: 1
+      ASKL: 1
+  AIMR:
+    synapses:
+      OLQDR: 1
+      PVNR: 1
+      AVFL: 1
+      HSNL: 1
+      AVDR: 1
+      ASKR: 3
+      AIAR: 5
+      RIFR: 1
+      ASGR: 2
+      RMGR: 1
+      ASJR: 2
+      HSNR: 2
+      AVFR: 1
+  AIML:
+    synapses:
+      AVBR: 2
+      AVFL: 4
+      AVDR: 1
+      ALML: 1
+      SMBVL: 1
+      SIBDR: 1
+      AVJL: 1
+      ASGL: 2
+      AVHL: 2
+      PVQL: 1
+      AVHR: 1
+      AIAL: 5
+      AVDL: 1
+      AVER: 1
+      ASKL: 2
+      RIFL: 1
+      AVFR: 1
+  ASGR:
+    synapses:
+      AINL: 1
+      AIBR: 2
+      AIAR: 10
+      AIZR: 1
+      AIYR: 1
+  IL2DR:
+    synapses:
+      RMER: 2
+      RICR: 1
+      RMEV: 1
+      RIPR: 11
+      RMEL: 2
+      URADR: 3
+      CEPDR: 1
+      RMED: 1
+      IL1DR: 7
+  OLQVL:
+    synapses:
+      ADLL: 1
+      RIGL: 1
+      URBL: 1
+      CEPVL: 1
+      RMDVR: 4
+      RIPL: 1
+      IL2VL: 1
+      RICL: 1
+      RIBL: 1
+      RIH: 1
+      IL1VL: 1
+      RMDDL: 1
+      SIBDL: 3
+  AVER:
+    synapses:
+      RMDVR: 1
+      RMDVL: 1
+      DB3: 1
+      AVEL: 1
+      AVAR: 16
+      SABVR: 3
+      SABVL: 3
+      AVAL: 7
+      VA2: 1
+      VA3: 2
+      VA1: 1
+      SABD: 2
+      VA5: 1
+      AS3: 1
+      AS2: 2
+      AS1: 3
+      RIMR: 2
+      RMEV: 1
+      DA1: 5
+      DA2: 3
+      DA3: 1
+      RIML: 3
+      AVDR: 1
+      VA4: 1
+  RIFL:
+    synapses:
+      VD1: 1
+      AVBR: 1
+      ALML: 2
+      AVJR: 2
+      PVPL: 3
+      AVHR: 1
+      RIML: 4
+      AVG: 1
+      AVBL: 10
+  PVM:
+    synapses:
+      PDEL: 1
+      DVA: 3
+      AVL: 1
+      AVM: 1
+      PVR: 1
+      AVKL: 11
+      PVCL: 2
+      PDER: 1
+  OLQDL:
+    synapses:
+      CEPDL: 1
+      RIGL: 1
+      RMDDR: 4
+      URBL: 1
+      SIBVL: 3
+      RICR: 1
+      RMDVL: 1
+      RIBL: 2
+  AS3:
+    synapses:
+      MDL09: 3
+      VD3: 15
+      VD2: 1
+      DD1: 1
+      AVAR: 1
+      MDL10: 3
+      AVAL: 2
+      MDR10: 3
+      DA2: 1
+      DA3: 1
+      VA5: 2
+      MDR09: 3
+  AS2:
+    synapses:
+      MDL08: 2
+      VD2: 10
+      DD1: 1
+      MDL07: 3
+      MDR07: 3
+      VA4: 2
+      DA2: 1
+      DB1: 1
+      MDR08: 3
+  AS1:
+    synapses:
+      MDL08: 3
+      VD1: 5
+      VD2: 1
+      AVAR: 2
+      MDL05: 3
+      AVAL: 3
+      MDR05: 3
+      DA1: 2
+      VA3: 1
+      MDR08: 4
+  URADL:
+    synapses:
+      IL1DL: 2
+      MDL02: 2
+      MDL03: 2
+      MDL04: 2
+      RIPL: 3
+      RMEL: 1
+  AS7:
+    synapses:
+      AVBR: 2
+      MDL16: 3
+      AVAR: 5
+      MDL13: 2
+      AVAL: 6
+      MDR16: 3
+      MDR13: 2
+      AVBL: 2
+  AS6:
+    synapses:
+      AVBR: 1
+      MDR14: 2
+      MDL13: 3
+      MDL14: 2
+      AVAR: 1
+      VA8: 1
+      VD6: 13
+      DA5: 2
+      AVAL: 1
+      MDR13: 3
+  AS5:
+    synapses:
+      VD5: 9
+      DD2: 1
+      MDL14: 3
+      AVAR: 1
+      MDL11: 2
+      MDR14: 3
+      AVAL: 1
+      MDR11: 2
+      VA7: 1
+  AS4:
+    synapses:
+      VD4: 11
+      AS5: 1
+      DA3: 1
+      MDL12: 2
+      MDL11: 2
+      MDR11: 3
+      MDR12: 2
+  AS9:
+    synapses:
+      MDL20: 3
+      MDL17: 2
+      AVAR: 1
+      AVAL: 4
+      DVB: 7
+      MDR17: 2
+      MDR20: 3
+  AS8:
+    synapses:
+      MDL18: 3
+      MDL15: 2
+      AVAR: 3
+      MDR15: 2
+      AVAL: 4
+      MDR18: 3
+  SMBVL:
+    synapses:
+      SAAVR: 2
+      PLNL: 1
+      RMEV: 5
+      MVL02: 1
+      MVL03: 1
+      MVL01: 1
+      MVL06: 1
+      MVL04: 1
+      MVL05: 1
+      SAADL: 3
+      MVL08: 1
+  VD3:
+    synapses:
+      MVR12: -7
+      VD2: 2
+      MVR09: -7
+      PVPL: 1
+      VB2: 2
+      MVL12: -9
+      VA3: 2
+      MVL09: -7
+      VD4: 1
+  SMDVR:
+    synapses:
+      RIAR: 5
+      MVR07: 1
+      RMDVR: 1
+      SMDDL: 2
+      MVL02: 1
+      MVL03: 1
+      VB1: 1
+      SMDVL: 1
+      RIBL: 2
+      MVL04: 1
+      RIVR: 2
+      RMDDL: 1
+      RIAL: 7
+  VD2:
+    synapses:
+      VD1: 7
+      AS1: 1
+      MVR10: -7
+      VB2: 3
+      DD1: 2
+      MVR07: -7
+      VD3: 2
+      MVL10: -7
+      MVL07: -7
+      VA2: 3
+  LUAR:
+    synapses:
+      PVR: 1
+      PVCR: 3
+      AVDR: 3
+      AVJR: 1
+      PVWL: 1
+      AVAR: 7
+      PQR: 1
+      AVAL: 3
+      AVDL: 1
+      PLMR: 1
+  VA3:
+    synapses:
+      MVR12: 5
+      AS1: 1
+      MVR10: 5
+      MVR09: 5
+      DD2: 11
+      DD1: 18
+      AVAR: 2
+      VD3: 3
+      MVL10: 5
+      AVAL: 1
+      MVL12: 5
+      VA4: 1
+      VD2: 3
+      MVL09: 5
+      SABD: 2
+  URYVR:
+    synapses:
+      SIBDR: 1
+      RIAR: 1
+      RMDDR: 6
+      AVEL: 6
+      IL1VR: 1
+      RIBR: 1
+      RMDVL: 4
+      AVAL: 1
+      SMDVL: 3
+      SIBVL: 1
+      RIGR: 1
+  RIPL:
+    synapses:
+      OLQDR: 1
+      RMED: 1
+      OLQDL: 1
+  VD11:
+    synapses:
+      MVR20: -9
+      VB10: 1
+      MVR19: -9
+      AVAR: 2
+      MVL20: -9
+      MVL19: -9
+      VA11: 1
+  PDB:
+    synapses:
+      MVL22: 1
+      VD13: 2
+      RID: 2
+      AS11: 2
+      MVR21: 1
+  PDA:
+    synapses:
+      PVNR: 1
+      MDL21: 2
+      DD6: 1
+      AS11: 1
+      DA9: 1
+      VD13: 3
+  SMBVR:
+    synapses:
+      MVR04: 1
+      SAADR: 4
+      AVKR: 1
+      MVR07: 1
+      MVR01: 1
+      MVR02: 1
+      MVR03: 1
+      AVKL: 1
+      RMEV: 3
+      SAAVL: 3
+      MVR06: 1
+  BAGR:
+    synapses:
+      RIGL: 1
+      AVEL: 2
+      RIR: 1
+      AVAL: 1
+      RIBL: 4
+      RIAL: 5
+      AIYL: 1
+      BAGL: 1
+  AVFL:
+    synapses:
+      AVBR: 2
+      HSNL: 1
+      MVL12: 1
+      MVL11: 1
+      AVJR: 1
+      PVQR: 1
+      PVQL: 1
+      AVHL: 2
+      PDER: 1
+      AVL: 1
+      VB1: 1
+      AVHR: 3
+      AVJL: 1
+      AVG: 1
+      PVNL: 2
+      AVFR: 23
+      AVBL: 1
+  SDQR:
+    synapses:
+      AVBR: 4
+      ADLL: 1
+      SIBVL: 1
+      RICR: 1
+      RIVR: 2
+      DVA: 3
+      AVAL: 1
+      RMHL: 2
+      RIVL: 2
+      SDQL: 1
+      AIBL: 2
+      RMHR: 1
+      AVBL: 1
+  PQR:
+    synapses:
+      LUAR: 1
+      AVDR: 6
+      AVAR: 11
+      PVPL: 4
+      AVAL: 8
+      AVDL: 7
+      AVG: 1
+      PVNL: 1
+  RIGL:
+    synapses:
+      AIBR: 3
+      OLLL: 1
+      OLQVL: 1
+      AVKR: 2
+      DVC: 1
+      URYVL: 1
+      AVKL: 1
+      ALNL: 1
+      AVEL: 1
+      AQR: 2
+      RIR: 2
+      RMFL: 1
+      RIBL: 1
+      AVER: 1
+      RMHR: 3
+      OLQDL: 1
+      VD1: 2
+      URYDL: 1
+      RMEL: 1
+      AIZR: 1
+      BAGR: 1
+      VB2: 1
+      RIGR: 3
+  AFDL:
+    synapses:
+      AIBL: 1
+      AIYL: 7
+      AINR: 1
+      AFDR: 1
+  I2R:
+    synapses:
+      I1L: 1
+      M1: 2
+      I1R: 1
+  VD6:
+    synapses:
+      MVR13: -7
+      VD5: 2
+      MVR16: -7
+      VD7: 1
+      MVR14: -7
+      MVL13: -7
+      AVAL: 1
+      MVL14: -7
+      VB5: 2
+      MVL16: -7
+      VA6: 1
+  RMHL:
+    synapses:
+      RMDR: 1
+      RMGL: 3
+      MDR01: 2
+      MVR01: 2
+      MDR03: 3
+      SIBVR: 1
+  BDUR:
+    synapses:
+      PVNR: 1
+      PVCL: 1
+      ADER: 1
+      AVHL: 1
+      AVAL: 3
+      URADR: 1
+      ALMR: 1
+      AVJL: 2
+      SDQL: 1
+      HSNR: 4
+      PVNL: 2
+  VB3:
+    synapses:
+      AVBR: 1
+      MVR11: 6
+      MVR12: 6
+      DD2: 37
+      MVR14: 6
+      MVL11: 6
+      VB2: 1
+      MVL12: 6
+      MVL14: 6
+      DB1: 1
+      VA7: 1
+      VA4: 1
+  BDUL:
+    synapses:
+      PVNR: 2
+      HSNL: 1
+      AVJR: 1
+      URADL: 1
+      AVHL: 1
+      SAADL: 1
+      ADEL: 3
+      PVNL: 2
+  VB1:
+    synapses:
+      VD1: 3
+      AIBR: 1
+      VA1: 3
+      MVR08: 1
+      DD1: 1
+      MVR07: 1
+      DVA: 1
+      RMFL: 2
+      SMDVR: 1
+      VB2: 4
+      VD2: 1
+      AVKL: 4
+      MVL07: 1
+      VA3: 1
+      RIML: 2
+      SAADL: 9
+      MVL08: 1
+      DB2: 2
+      SAADR: 2
+      SABD: 1
+      AVBL: 1
+  SMDVL:
+    synapses:
+      SMDVR: 1
+      RIAR: 8
+      PVR: 1
+      RMDDR: 1
+      MVR04: 1
+      RIVL: 1
+      MVR06: 1
+      RIBR: 2
+      RIS: 1
+      MVR02: 1
+      MVR03: 1
+      MVL03: 1
+      RMDVL: 1
+      SMDDR: 4
+      MVL06: 1
+      RIAL: 3
+  I2L:
+    synapses:
+      I1L: 1
+      M1: 2
+      I1R: 1
+  RMFL:
+    synapses:
+      PVT: 1
+      RMDR: 3
+      AVKR: 4
+      MVR01: 1
+      MVR03: 1
+      AVKL: 4
+      MDR03: 1
+      URBR: 1
+      RIGR: 1
+      RMGR: 1
+  VB5:
+    synapses:
+      MVR13: 6
+      MVR14: 6
+      DD3: 27
+      VD6: 7
+      VB2: 1
+      MVL13: 6
+      VB6: 1
+      MVL14: 6
+      VB4: 1
+      AVBL: 1
+  AFDR:
+    synapses:
+      AFDL: 1
+      AIBR: 1
+      AIYR: 13
+      ASER: 1
+  RIGR:
+    synapses:
+      OLQDR: 1
+      RMHL: 4
+      RIGL: 3
+      AQR: 1
+      AVKR: 1
+      RIBR: 1
+      RIR: 1
+      URYDR: 1
+      URYVR: 1
+      AVKL: 4
+      OLQVR: 1
+      AVER: 2
+      OLLR: 1
+      AIBL: 3
+      BAGL: 1
+      ALNR: 1
+  SDQL:
+    synapses:
+      SDQR: 1
+      AVEL: 1
+      ALML: 2
+      AVAR: 3
+      RICR: 1
+      RIS: 3
+      RMFL: 1
+      AVAL: 1
+      FLPL: 1
+  VB8:
+    synapses:
+      AVBR: 3
+      MVR17: 5
+      MVR20: 5
+      VD9: 10
+      MVR18: 5
+      DD5: 30
+      VA8: 3
+      VA9: 1
+      MVL17: 5
+      MVL20: 5
+      MVL18: 5
+      VB9: 3
+      VD10: 1
+      AVBL: 7
+  AVFR:
+    synapses:
+      AVBR: 5
+      AVFL: 23
+      ASJL: 1
+      MVR14: 2
+      AVJR: 1
+      AVHL: 2
+      PVQL: 1
+      AVHR: 1
+      VC4: 1
+      MVL14: 2
+      AVJL: 1
+      ASKL: 1
+      HSNR: 1
+      VD11: 1
+      AVBL: 1
+  BAGL:
+    synapses:
+      BAGR: 1
+      RIAR: 5
+      RIGL: 1
+      AVEL: 1
+      RIR: 1
+      RIBR: 7
+      AVAR: 1
+      RIGR: 1
+      RIBL: 1
+      AVER: 4
+      AIBL: 1
+  URADR:
+    synapses:
+      RMER: 1
+      RMDVR: 1
+      URYDR: 1
+      RIPR: 3
+      MDR02: 2
+      MDR03: 3
+      MDR01: 3
+      RMED: 1
+      IL1DR: 1
+  AIBR:
+    synapses:
+      RIMR: 1
+      AVBR: 3
+      RIGL: 3
+      PVT: 1
+      AVEL: 1
+      RIVR: 1
+      AVAR: 1
+      RIS: 1
+      DVC: 2
+      SMDDL: 3
+      RIML: 1
+      VB1: 3
+      SMDVL: 1
+      SAADL: 1
+      RIBL: 4
+      AFDR: 1
+      DB1: 1
+      RIAL: 1
+  PVCR:
+    synapses:
+      PDEL: 1
+      PHCR: 1
+      DB3: 3
+      DB2: 1
+      DB5: 1
+      DB4: 4
+      DB7: 1
+      DB6: 2
+      PVCL: 5
+      AVEL: 1
+      AQR: 1
+      AVAR: 3
+      VA8: 2
+      AVAL: 5
+      VA9: 1
+      AVER: 1
+      RID: 5
+      AS2: 1
+      VB4: 3
+      VB10: 1
+      PVR: 1
+      FLPL: 1
+      AVJL: 3
+      PVWR: 1
+      DA9: 1
+      LUAR: 1
+      AVBR: 6
+      AVDR: 1
+      PVDL: 1
+      PVWL: 2
+      AVL: 1
+      VB7: 3
+      VB6: 2
+      SIBVR: 2
+      AVDL: 5
+      VB8: 1
+      PLMR: 1
+      AVBL: 8
+  AVKR:
+    synapses:
+      PVQL: 1
+      SMBDR: 2
+      SMDDR: 2
+      RIMR: 2
+      MVL10: 1
+      RMDR: 1
+      AQR: 1
+      RMFL: 1
+      PVPL: 6
+      RIGR: 1
+      BDUL: 1
+      RICL: 1
+      SMBDL: 1
+      AVKL: 2
+      SMBVR: 1
+      ADEL: 1
+      SAADL: 1
+      RIML: 2
+      SMDDL: 1
+  OLQVR:
+    synapses:
+      SIBDR: 4
+      RMDDR: 1
+      CEPVR: 1
+      RMER: 1
+      RIBR: 1
+      RICR: 1
+      RIPR: 2
+      RMDVL: 4
+      RIH: 2
+      IL1VR: 1
+      RIGR: 1
+      URBR: 1
+  RMDVR:
+    synapses:
+      SIBDR: 1
+      RMDR: 1
+      SMDVR: 1
+      RMDVL: 1
+      OLQDR: 1
+      AVEL: 1
+      MDL01: 1
+      MVL02: 1
+      MVL03: 1
+      MVL01: 1
+      MVL06: 1
+      MVL04: 1
+      MVL05: 1
+      AVER: 1
+      MVL08: 1
+      RMDDR: 1
+      SAAVR: 1
+      RMDDL: 4
+      MVR08: 1
+      MVR04: 1
+      MVR06: 1
+      SIBVR: 1
+  M3R:
+    synapses:
+      MCL: 1
+      NSMR: 3
+      MI: 1
+      I3: 2
+      I5: 3
+      I4: 6
+      I6: 1
+      I1L: 4
+      M3L: 1
+      M1: 1
+      NSML: 2
+      I1R: 4
+      MCR: 1
+  RIPR:
+    synapses:
+      OLQDR: 1
+      RMED: 1
+      OLQDL: 1
+  RMDVL:
+    synapses:
+      MVR08: 1
+      RMDDR: 6
+      MVR04: 1
+      MVR05: 1
+      MVR06: 1
+      RMDL: 1
+      RMDVR: 1
+      MVR01: 1
+      MVR02: 1
+      MVR03: 1
+      RMDDL: 1
+      SMDVL: 1
+      SAAVL: 1
+      MVL04: 1
+      MDR01: 1
+      AVER: 1
+      OLQDL: 1
+  AVKL:
+    synapses:
+      PDEL: 3
+      AVKR: 2
+      DVA: 1
+      SMBDR: 1
+      SMBDL: 1
+      PDER: 1
+      PVT: 2
+      ADER: 1
+      AQR: 2
+      VB1: 4
+      PVPL: 1
+      PVPR: 1
+      RMFR: 1
+      AVER: 1
+      PVM: 1
+      RIMR: 1
+      SMDDR: 1
+      RIML: 2
+      AVEL: 2
+      RIGL: 1
+      SAADR: 1
+      VB10: 1
+      RICR: 1
+      AVM: 1
+      RICL: 1
+      SMBVR: 1
+      SIAVR: 1
+      AVBL: 1
+  PHAR:
+    synapses:
+      PVQL: 2
+      AVHR: 1
+      PHBR: 5
+      DVA: 1
+      PVPL: 3
+      PHAL: 2
+      PHBL: 1
+      AVG: 3
+      DA8: 1
+  PVCL:
+    synapses:
+      PVCR: 5
+      DVA: 1
+      DB3: 4
+      DB2: 3
+      DB5: 2
+      DB4: 3
+      DB7: 3
+      DB6: 2
+      AVEL: 2
+      VB10: 1
+      AVAR: 4
+      RIS: 2
+      AVAL: 2
+      AVER: 1
+      RID: 5
+      AS1: 1
+      AVJR: 1
+      DA5: 1
+      DA6: 1
+      DA2: 1
+      AVJL: 1
+      AVBR: 12
+      PLML: 1
+      VB11: 1
+      AVDR: 2
+      SIBVL: 2
+      VB3: 1
+      VB6: 2
+      VB5: 1
+      VB4: 1
+      AVDL: 5
+      VB9: 2
+      VB8: 1
+      AVBL: 5
+  AIBL:
+    synapses:
+      PVT: 1
+      RIMR: 1
+      AFDL: 1
+      SAADR: 2
+      RIBR: 4
+      DVC: 1
+      RIML: 2
+      AVAL: 2
+      SMDDR: 4
+      SAADL: 2
+      FLPL: 1
+      ASER: 1
+      RIGR: 3
+      RIFL: 1
+      RIVL: 1
+      AIYL: 1
+      AVBL: 5
+  URAVL:
+    synapses:
+      RMER: 1
+      RMEV: 2
+      RIPL: 3
+      MVL02: 2
+      MVL03: 3
+      MVL01: 2
+      RMEL: 1
+      MVL04: 2
+  AWAR:
+    synapses:
+      AIYR: 2
+      AIAR: 1
+      RIFR: 2
+      ASER: 2
+      ASEL: 1
+      AWBR: 1
+      ADFR: 3
+      RIR: 2
+      AFDR: 7
+      RIGR: 1
+      AIZR: 1
+      AWAL: 1
+      AUAR: 1
+  ASIL:
+    synapses:
+      AIZL: 1
+      ASER: 1
+      AWCR: 1
+      RIBL: 1
+      AIYL: 2
+      AIAL: 2
+      ASKL: 2
+      AIBL: 1
+      ASIR: 1
+      AWCL: 1
+  ADER:
+    synapses:
+      PVR: 1
+      RIH: 1
+      RIGL: 7
+      AVDR: 2
+      FLPR: 1
+      AVJR: 1
+      ADAR: 1
+      AVAR: 1
+      ALA: 1
+      SAAVR: 1
+      AVER: 1
+      AVAL: 5
+      AVKL: 1
+      FLPL: 1
+      RMDR: 2
+      ADEL: 2
+      OLLR: 2
+      AVKR: 1
+      RIGR: 4
+      CEPDR: 1
+  AQR:
+    synapses:
+      BAGR: 2
+      AVBR: 4
+      RIAR: 1
+      PVCR: 2
+      RIGL: 2
+      AVDR: 1
+      AVKR: 1
+      AVAR: 3
+      PVPL: 7
+      PVPR: 9
+      AVAL: 1
+      AVKL: 2
+      URXL: 1
+      AVJL: 1
+      RIGR: 1
+      AVDL: 1
+      RIAL: 3
+      BAGL: 2
+      AVBL: 1
+  VA10:
+    synapses:
+      MVR17: 5
+      MVR18: 5
+      AVAR: 1
+      AVAL: 1
+      MVL17: 5
+      MVL18: 5
+  I3:
+    synapses:
+      M2L: 1
+      M1: 2
+      M2R: 1
+  URBL:
+    synapses:
+      CEPDL: 1
+      SIAVL: 1
+      RMDDR: 1
+      OLQVL: 1
+      RICR: 1
+      SMBDR: 1
+      IL1L: 1
+      URXL: 2
+      AVBL: 1
+      OLQDL: 1
+  I5:
+    synapses:
+      M5: 1
+      I1L: 1
+      M1: 1
+      MI: 2
+      I1R: 1
+  I4:
+    synapses:
+      I5: 2
+      I2R: 5
+      I2L: 5
+      M1: 2
+  PVPL:
+    synapses:
+      AVBR: 6
+      VD3: 1
+      PVCR: 3
+      PQR: 4
+      RIGL: 2
+      AQR: 7
+      AVKR: 6
+      AVDR: 2
+      AVAR: 1
+      PHAR: 3
+      DVC: 2
+      PVPR: 1
+      AVAL: 1
+      AVHR: 1
+      ADAL: 1
+      PVT: 1
+      AVER: 1
+      AVKL: 1
+      VD13: 2
+      AVBL: 5
+  I6:
+    synapses:
+      NSMR: 2
+      I2R: 2
+      M5: 2
+      M4: 1
+      I2L: 2
+      NSML: 2
+      I3: 1
+  PVPR:
+    synapses:
+      PVCR: 7
+      DVC: 13
+      AVKL: 1
+      PVCL: 4
+      AQR: 9
+      DD2: 1
+      AVAR: 2
+      PVPL: 1
+      AVAL: 1
+      RIMR: 1
+      AVBR: 5
+      RIAR: 2
+      VD5: 1
+      VD4: 1
+      AVHL: 3
+      ADFR: 1
+      AVL: 4
+      RMGR: 1
+      RIGR: 1
+      AVBL: 4
+      ASHR: 1
+      PVQR: 1
+  SABVL:
+    synapses:
+      AVAR: 3
+      DA1: 2
+      DA2: 1
+  SIADR:
+    synapses:
+      RIBR: 1
+  M3L:
+    synapses:
+      M3R: 1
+      NSMR: 3
+      MI: 1
+      I5: 3
+      I4: 2
+      I6: 1
+      I1L: 4
+      MCL: 1
+      M1: 1
+      NSML: 2
+      I1R: 4
+      MCR: 1
+  VC4:
+    synapses:
+      MVULVA: 7
+      AVHR: 1
+      VC1: 1
+      VC3: 1
+      VC5: 1
+      AVFR: 1
+      AVBL: 1
+  VC5:
+    synapses:
+      MVULVA: 2
+      HSNL: 1
+      URBL: 3
+      DVC: 2
+      VC3: 2
+      AVFL: 1
+      VC4: 1
+      OLLR: 1
+      AVFR: 1
+      PVT: 1
+  VC6:
+    synapses:
+      MVULVA: 1
+  PHCL:
+    synapses:
+      PLML: 1
+      DVA: 6
+      AVAL: 1
+      VA12: 1
+      PHCR: 1
+      PVCL: 2
+      DA9: 1
+      LUAL: 1
+  ADEL:
+    synapses:
+      SIBDR: 1
+      OLLL: 1
+      RIVL: 1
+      AVKR: 1
+      RMDL: 2
+      SMBDR: 1
+      IL1L: 1
+      RIVR: 1
+      RMHL: 1
+      ADER: 1
+      AVAR: 3
+      MDL05: 1
+      AVAL: 2
+      ADAL: 1
+      RIH: 2
+      RIFL: 1
+      CEPDL: 1
+      URBL: 1
+      AINL: 1
+      SIADR: 1
+      FLPL: 1
+      AVEL: 1
+      RIGL: 5
+      RMGL: 1
+      IL2L: 1
+      AVL: 1
+      BDUL: 1
+      RIGR: 3
+      RIAL: 1
+  RMGR:
+    synapses:
+      AVBR: 1
+      MVR07: 1
+      RMDR: 2
+      ASKR: 1
+      AWBR: 1
+      ADAR: 1
+      MDR05: 1
+      AVAR: 1
+      AIMR: 1
+      RIR: 1
+      IL2R: 1
+      URXR: 1
+      MVR05: 1
+      AVJL: 1
+      AVER: 3
+      AVDL: 1
+      RMDVR: 5
+      RMDL: 4
+      RMHR: 1
+      ASHR: 1
+      ALNR: 1
+  RIVL:
+    synapses:
+      RIAR: 1
+      MVR08: -3
+      MVR05: -2
+      MVR06: -2
+      RMDL: 2
+      RIAL: 1
+      SMDDR: 1
+      SMDVL: 1
+      RIVR: 2
+      SIAVR: 2
+      SDQR: 2
+      AIBL: 1
+      SAADR: 3
+  PDER:
+    synapses:
+      PDEL: 3
+      PVCR: 1
+      VD9: 1
+      DVA: 35
+      VA8: 1
+      AVKL: 16
+      PVCL: 1
+      PVM: 1
+  ASIR:
+    synapses:
+      AWCR: 1
+      AIBR: 1
+      ASIL: 1
+      AIAR: 2
+      AIAL: 1
+      ASEL: 2
+      ASHR: 1
+      AWCL: 1
+  AWAL:
+    synapses:
+      AWAR: 1
+      AIZL: 10
+      AFDL: 5
+      ASGL: 1
+      AWBL: 1
+      ADAL: 1
+      AIAL: 1
+      ASEL: 4
+      AIYL: 1
+  AIZL:
+    synapses:
+      ASHL: 1
+      AIBR: 8
+      RIGL: 1
+      VB2: 1
+      RIAL: 8
+      DVA: 1
+      ASGL: 1
+      SMBVL: 7
+      RIML: 4
+      SMBDL: 9
+      AIAL: 3
+      ASEL: 1
+      AVER: 5
+      AIZR: 2
+      AIBL: 2
+  SIAVR:
+    synapses:
+      RIBR: 1
+  VB6:
+    synapses:
+      AVBR: 2
+      MVULVA: 6
+      MVR16: 6
+      MVR15: 6
+      VD6: 1
+      DD4: 30
+      DA4: 1
+      VD7: 8
+      VA8: 1
+      MVL15: 6
+      VB5: 1
+      MVL16: 6
+      VB7: 1
+      AVBL: 1
+  IL1VR:
+    synapses:
+      RMDDR: 10
+      IL1R: 1
+      MVR01: 5
+      MVR02: 5
+      RIPR: 6
+      IL2R: 1
+      IL2VR: 1
+      IL1VL: 1
+      RMER: 1
+  ADFL:
+    synapses:
+      AUAL: 5
+      AIZL: 12
+      RIGL: 1
+      OLQVL: 1
+      RIR: 2
+      SMBVL: 2
+      ADAL: 1
+      RIAL: 15
+  RIBL:
+    synapses:
+      AIBR: 2
+      OLQVL: 1
+      SMDVR: 2
+      SMBDL: 1
+      SIBDL: 1
+      PVT: 1
+      AVEL: 1
+      RIBR: 3
+      SIADL: 1
+      AVAL: 1
+      RIBL: 1
+      AVER: 5
+      OLQDL: 2
+      AUAL: 1
+      BAGR: 1
+      AVBR: 1
+      SIAVL: 1
+      RIGL: 1
+      AVDR: 1
+      SIBVL: 1
+      SMDDL: 1
+      SIBVR: 1
+      RIAL: 3
+      AVBL: 1
+  DA4:
+    synapses:
+      VD5: 15
+      VD4: 12
+      VB6: 1
+      DD2: 1
+      MDL14: 5
+      AVAR: 2
+      MDL12: 4
+      MDL11: 4
+      MDR14: 5
+      AVAL: 3
+      MDR11: 4
+      DA1: 1
+      DA3: 1
+      DB3: 1
+      MDR12: 4
+  DA5:
+    synapses:
+      VD5: 1
+      AS6: 2
+      VD6: 16
+      AVAR: 5
+      MDL14: 4
+      MDL13: 5
+      MDR14: 4
+      AVAL: 1
+      MDR13: 5
+      DB4: 1
+      VA4: 1
+      VA5: 2
+  DA6:
+    synapses:
+      VD5: 3
+      VD4: 4
+      VD6: 3
+      AVAR: 2
+      MDL14: 4
+      MDL13: 4
+      MDL12: 4
+      MDL11: 6
+      MDR14: 4
+      AVAL: 10
+      MDR16: 4
+      MDR11: 4
+      MDR13: 4
+      MDL16: 4
+      MDR12: 4
+  DA7:
+    synapses:
+      MDL18: 4
+      MDL17: 4
+      MDL15: 4
+      MDR17: 4
+      MDR15: 4
+      AVAL: 2
+      MDR18: 4
+  DA1:
+    synapses:
+      MDL08: 8
+      VD1: 17
+      VD2: 1
+      DD1: 4
+      AVAR: 6
+      SABVR: 3
+      DA4: 1
+      SABVL: 2
+      AVAL: 2
+      MDR08: 8
+  DA2:
+    synapses:
+      AS3: 1
+      AS2: 1
+      VD3: 5
+      VA1: 2
+      MDL09: 2
+      DD1: 1
+      AVAR: 2
+      SABVL: 1
+      MDL07: 2
+      MDR07: 2
+      AVAL: 2
+      MDL08: 1
+      MDR10: 2
+      VD2: 11
+      MDL10: 2
+      VD1: 2
+      MDR08: 2
+      MDR09: 2
+  DA3:
+    synapses:
+      MDL09: 5
+      VD3: 25
+      VD4: 6
+      AS4: 1
+      DD2: 1
+      AVAR: 2
+      MDL12: 5
+      MDL10: 5
+      DA4: 2
+      MDR10: 5
+      MDR12: 5
+      DB3: 1
+      MDR09: 5
+  AIZR:
+    synapses:
+      AWAR: 1
+      AIBR: 1
+      AIZL: 2
+      RIMR: 4
+      AVEL: 4
+      AIAR: 1
+      DVA: 1
+      RIAR: 7
+      SMBDR: 5
+      ASGR: 1
+      SMDDR: 1
+      SMBVR: 3
+      AVER: 1
+      AIBL: 8
+      ASHR: 1
+  DA8:
+    synapses:
+      MDL20: 4
+      MDL19: 4
+      MDL17: 4
+      MDR20: 4
+      AVAR: 1
+      MDR17: 4
+      MDR19: 4
+      DA9: 1
+  DA9:
+    synapses:
+      MDL22: 4
+      MDL23: 4
+      MDL21: 4
+      VD13: 1
+      MDL24: 4
+      MDL19: 4
+      MDR19: 4
+      DD6: 1
+      PDA: 1
+      PHCL: 1
+      MDR24: 4
+      RID: 1
+      DA8: 1
+      MDR21: 4
+      MDR22: 4
+      MDR23: 4
+  VB2:
+    synapses:
+      DB4: 1
+      MVR12: 4
+      MVR10: 4
+      DD2: 1
+      DD1: 20
+      VC2: 1
+      MVL07: 4
+      VA2: 1
+      MVL09: 4
+      AVBR: 1
+      VD3: 3
+      VD2: 9
+      MVR09: 4
+      RIGL: 1
+      MVR07: 4
+      VB3: 1
+      MVL10: 4
+      VB1: 4
+      MVL12: 4
+      VB7: 2
+      VB5: 1
+      AVBL: 3
+  ASHL:
+    synapses:
+      AIZL: 1
+      AVDR: 2
+      RIAL: 4
+      RMGL: 1
+      RICL: 2
+      RIPL: 1
+      ADFL: 3
+      AVAL: 2
+      ADAL: 1
+      AIAL: 7
+      AVDL: 2
+      RIML: 1
+      ASKL: 1
+      AIBL: 5
+      ASHR: 1
+      AVBL: 6
+  SAAVR:
+    synapses:
+      RIMR: 2
+      AVAR: 13
+      RMDVR: 1
+      SMBVL: 2
+      SMDDL: 6
+      RIML: 5
+  RIAR:
+    synapses:
+      SMDVR: 7
+      RMDR: 8
+      SIAVL: 1
+      RMDDR: 11
+      CEPVR: 1
+      IL1R: 1
+      RMDL: 3
+      RMDVR: 10
+      SIADR: 1
+      SMDDL: 7
+      RMDVL: 12
+      SMDDR: 7
+      SMDVL: 13
+      RIVL: 1
+      RMDDL: 10
+      RIAL: 4
+      SAADR: 1
+      SIADL: 1
+  MCL:
+    synapses:
+      I2R: 1
+      M2R: 2
+      I1R: 3
+      M2L: 2
+      I1L: 3
+      M1: 1
+      I2L: 1
+      I3: 1
+  VB11:
+    synapses:
+      AVBR: 1
+      MVR24: 5
+      MVR22: 5
+      MVR23: 5
+      MVR21: 5
+      DD6: 7
+      PVCR: 1
+      MVL21: 5
+      MVL22: 5
+      MVL23: 5
+      VA12: 1
+      AVBL: 2
+  SIAVL:
+    synapses:
+      RIBL: 1
+  AVDR:
+    synapses:
+      ADLL: 1
+      AVJL: 2
+      DVC: 1
+      DB4: 1
+      VA11: 1
+      AVAR: 15
+      SABVR: 1
+      SABVL: 3
+      AVAL: 16
+      ADAL: 2
+      AS10: 1
+      VA2: 1
+      VA3: 2
+      VA6: 1
+      SABD: 1
+      AS5: 1
+      FLPR: 1
+      DA4: 1
+      DA5: 2
+      DA1: 2
+      DA2: 1
+      DA3: 1
+      DA8: 1
+      DA9: 1
+      PQR: 1
+      AVDL: 2
+      LUAL: 2
+      AVBL: 1
+  PHBR:
+    synapses:
+      AVFL: 1
+      PVCR: 3
+      AVDR: 1
+      AVAR: 7
+      AVHL: 1
+      AVAL: 7
+      PHBL: 3
+      AVDL: 1
+      PVCL: 6
+      DA8: 1
+      VA12: 2
+  MCR:
+    synapses:
+      I3: 1
+      M2R: 2
+      I1R: 3
+      M2L: 2
+      I1L: 3
+      M1: 1
+  LUAL:
+    synapses:
+      PLML: 1
+      AVDR: 2
+      PVWL: 1
+      AVAR: 6
+      AVAL: 1
+      PVR: 1
+      PHBL: 1
+      AVJL: 1
+      AVDL: 4
+      PVNL: 1
+  PHBL:
+    synapses:
+      PHBR: 3
+      AVAR: 6
+      AVAL: 9
+      AVDL: 1
+      PVCL: 13
+      VA12: 1
+  RMDL:
+    synapses:
+      RIAR: 3
+      MVR07: 1
+      RMDR: 3
+      RMDDR: 1
+      MVR05: 2
+      RMER: 1
+      MDL03: 1
+      MDL05: 2
+      MVR01: 1
+      RMDDL: 1
+      RMDVL: 1
+      MVL01: 1
+      MDR03: 1
+      MDR01: 1
+      OLLR: 2
+      RMFL: 1
+      MVR03: 1
+      RIAL: 4
+  AVDL:
+    synapses:
+      FLPL: 1
+      PVCL: 1
+      ADAR: 2
+      AVAR: 19
+      SABVR: 1
+      SABVL: 1
+      AVAL: 13
+      AS11: 2
+      AS10: 1
+      SABD: 1
+      VA5: 1
+      AS1: 1
+      AS5: 1
+      AS4: 1
+      FLPR: 1
+      DA4: 1
+      DA5: 1
+      DA1: 1
+      DA2: 1
+      DA3: 4
+      DA8: 1
+      AVM: 2
+      LUAL: 1
+  RIAL:
+    synapses:
+      RIAR: 1
+      RMDR: 6
+      RMDDR: 7
+      RIVL: 2
+      CEPVL: 1
+      RMDVR: 11
+      SMDDL: 8
+      SMDVR: 11
+      RMDVL: 9
+      SMDDR: 10
+      SMDVL: 6
+      RIVR: 4
+      RMDDL: 12
+      RMDL: 6
+      SIADL: 2
+  DD1:
+    synapses:
+      MDL08: -6
+      AVBR: 1
+      VD2: 2
+      MDL09: -7
+      DD2: 1
+      MDL07: -6
+      MDR07: -6
+      MDR10: -6
+      DA2: 2
+      MDL10: -6
+      VD1: 4
+      MDR08: -6
+      MDR09: -7
+  ASHR:
+    synapses:
+      ASHL: 1
+      AVBR: 3
+      AIBR: 3
+      AVDR: 1
+      ASKR: 1
+      RICR: 2
+      ADAR: 1
+      AIAR: 10
+      AVAR: 5
+      RIAR: 2
+      ADFR: 2
+      PVPR: 1
+      RMGR: 1
+      AVER: 3
+      AVDL: 5
+      AIZR: 1
+      HSNR: 1
+

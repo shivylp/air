@@ -1,0 +1,21 @@
+attributes:
+  name: simple-1
+  threshold: 10
+  lua_script: simulations/simple1.lua
+
+sensors:
+  - S\d+
+
+actuators:
+  - M\d+
+
+cells:
+  VS0: {}
+  VS1: {}
+  VS2: {}
+  N0: {}
+  N1: {}
+  N2: {}
+  N3: {}
+  M0: {}
+  M1: {}
