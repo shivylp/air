@@ -7,5 +7,6 @@ Dumping ground for my experiments with Connectomes, ML, Spiking Neural Networks 
 
 See `data/connectome/` for connectome (e.g. C.Elegans) model files.
 
-### Contributing
+
+## Contributing
 Don't bother ! (Unless you are crazy and interested in connectomes)
